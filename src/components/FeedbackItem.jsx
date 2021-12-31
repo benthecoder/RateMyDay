@@ -16,6 +16,7 @@ function FeedbackItem({ item }) {
         <FaEdit color='Purple' />
       </button>
       <div className='text-display'>{item.text}</div>
+      <div className='time'>{item.date}</div>
     </Card>
   );
 }
